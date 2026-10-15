@@ -15,4 +15,5 @@ To run the model in R:
 3. source("dAC_inhomog_hab.r")  # load Nimble function
 4. source("dMultiCapture.r")  # load Nimble function
 5. source("Nimble model.R")  # load Nimble model code
+6. Execute the code in the script "Run model in nimble.r"
 
