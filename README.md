@@ -8,3 +8,11 @@ A brief description of the files:
 4) "R prep.r": R code to prepare the data.
 5) "Run model in nimble.r": R code to set up and run the Nimble model in R.
 6) "beach_mouse_SCR.RData": RData file with data needed to run the Bayesian analysis.
+
+To run the model in R:
+load(beach_mouse_SCR.RData)  # load the RData file: 
+source("R prep.r) # run data prep script
+source("dAC_inhomog_hab.r")  # load Nimble function
+source("dMultiCapture.r")  # load Nimble function
+source("Nimble model.R")  # load Nimble model code
+
