@@ -88,7 +88,7 @@ code <- nimbleCode({
   for(t in 1:3) {
     for(i in 1:M_aug) {
       for(k in 1:n_nights) {
-        Ycat[i,k,t] ~ dSoftmaxCapture(
+        Ycat[i,k,t] ~ dMultiCapture(
           u = u[i,1:2,t],
           alpha0_int = alpha0.int[1:J,t],
           log_sigma_int = log_sigma_int[i,t],
