@@ -64,8 +64,8 @@ dMultiCapture <- nimbleFunction(
 )
 
 registerDistributions(list(
-  dSoftmaxCapture = list(
-    BUGSdist = "dSoftmaxCapture(u,alpha0_int,log_sigma_int,happy_alpha0,happy_sigma,Cap,trapCoords,trap_avail,r2,zPresent,J)",
+  dMultiCapture = list(
+    BUGSdist = "dMultiCapture(u,alpha0_int,log_sigma_int,happy_alpha0,happy_sigma,Cap,trapCoords,trap_avail,r2,zPresent,J)",
     types = c(
       "value = integer(0)",
       "u = double(1)",
