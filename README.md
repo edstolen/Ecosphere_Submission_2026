@@ -10,9 +10,9 @@ A brief description of the files:
 6) "beach_mouse_SCR.RData": RData file with data needed to run the Bayesian analysis.
 
 To run the model in R:
-load(beach_mouse_SCR.RData)  # load the RData file: 
-source("R prep.r) # run data prep script
-source("dAC_inhomog_hab.r")  # load Nimble function
-source("dMultiCapture.r")  # load Nimble function
-source("Nimble model.R")  # load Nimble model code
+1. load(beach_mouse_SCR.RData)  # load the RData file: 
+2. source("R prep.r) # run data prep script
+3. source("dAC_inhomog_hab.r")  # load Nimble function
+4. source("dMultiCapture.r")  # load Nimble function
+5. source("Nimble model.R")  # load Nimble model code
 
