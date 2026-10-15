@@ -1,4 +1,8 @@
 ### R-side setup
+library(nimble)
+library(tidyverse)
+library(coda)
+library(bayesplot)
 
 ## Dimensions and time settings
 M_aug     <- N.total                     # augmented and observed individuals
